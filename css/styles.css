@@ -1,0 +1,173 @@
+body{
+    font-family: Roboto;  
+}
+
+.container{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-container{
+    background: #1f2937;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    border: none;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    margin-top: -10px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation .nav-list .menu{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.slider{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 5px;
+    margin: 15px;
+    justify-content: space-between;
+    flex: 1 0;
+}
+
+.slider .left-text{
+    width: 40%;
+    margin: 0;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+}
+
+.left-text h2, .left-text p{
+    margin: 0;
+}
+
+.slider .left-text .sign-up{
+    width: 100px;
+    height: 30px;
+    background: #3882f6;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+
+.slider .left-text .package-heading{
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+
+.slider .images-one img{
+    max-width: 100%;
+    height: auto;
+}
+
+.team-view{
+    background: #f9faf8;
+    margin-bottom: 30px;
+    margin: 0;
+}
+
+.information-header{
+    font-size: 36px;
+    font-weight: 900;
+    margin: 0;
+    color: #1f2937;
+}
+
+.our-team{
+    display: flex;
+    gap: 15px;
+    flex-flow: wrap row;
+    padding-right: 15px;
+}
+
+.our-team .photo-ops{
+    justify-items: center;
+    justify-content: center;
+    width: 220px;
+    flex: 1 auto;
+}
+
+.our-team .photo-ops img{
+    height: 250px;
+    min-width: 100px;
+    object-fit: fill;
+    
+}
+
+.testimonials{
+    background: #e5e7eb;
+    justify-items: center;
+    margin: 0;
+    border: 0;
+}
+
+.testimonials p{
+    display: flex;
+    flex-direction: column;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    background: #e5e7eb;
+    width: 75%;
+}
+
+.testimonials p .quoter{
+    align-self: flex-end;
+}
+
+.sign-up-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 55%;
+    padding: 30px;
+    justify-self: center;
+    background: #3882f6;
+}
+
+.sign-up-1 .some-text{
+    width: 60%;
+}
+
+.sign-up-1 .some-text h3{
+    margin: 0;
+}
+
+.sign-up-1 .sign-up-2{
+    align-self: flex-end;
+}
+
+.sign-up-1 .sign-up-2 .button-2{
+    width: 100px;
+    height: 35px;
+    
+}
+
+.footer{
+    height: 80px;
+    background: #1f2937;
+    color: #e5e7eb;
+    justify-items: center;
+    align-content: center;
+    margin-top: 50px;
+    padding: 15px;
+}
